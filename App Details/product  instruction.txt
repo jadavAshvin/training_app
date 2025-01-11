@@ -1,0 +1,76 @@
+# My Trainings App
+
+## Project Overview
+
+This is a Flutter-based application to display training programs with details such as location, dates, prices, and trainers. The app features a clean UI, allowing users to browse through training highlights, view details, and apply filters to find relevant programs.
+
+
+## Prerequisites
+
+Before running the project, ensure the following tools and dependencies are installed on your system:
+
+1. **Flutter SDK**:  
+   Install Flutter from the [official Flutter website](https://flutter.dev/docs/get-started/install).
+    - Run `flutter doctor` in your terminal to verify the installation.
+
+2. **Android Studio or Visual Studio Code**:
+    - Install [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/) with the Flutter and Dart plugins.
+
+3. **Android Emulator or Physical Device**:
+    - Set up an Android Virtual Device (AVD) in Android Studio, or connect a physical Android device with USB Debugging enabled.
+
+---
+
+## Running the My Trainings App
+
+### Steps to Run the Project
+
+1. **Clone the Repository**:
+   Clone the project to your local machine using the following command:
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   cd <repo-name>
+   ```
+
+2. **Install Dependencies**:
+   Run the following command to fetch all required dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run on Emulator or Device**:
+    - Connect an Android device to your computer via USB (make sure USB Debugging is enabled), or launch an emulator from Android Studio.
+    - Run the app using:
+      ```bash
+      flutter run
+      ```
+    - The app will start running on the connected device or emulator.
+
+4. **Generate Release APK (Optional)**:
+   To create a release APK:
+    - Run:
+      ```bash
+      flutter build apk --release
+      ```
+    - The APK will be generated in the `build/app/outputs/flutter-apk/` directory.
+
+---
+
+## Troubleshooting
+
+- If you encounter issues while running the app, ensure the Flutter environment is properly set up:
+  ```bash
+  flutter doctor
+  ```
+- Common issues:
+    - Missing emulator: Create an AVD in Android Studio.
+    - Dependencies not installed: Run `flutter pub get`.
+    - Debugging device not detected: Make sure your physical device is connected and recognized by your system.
+
+---
+
+## Additional Deliverables
+
+### APK File
+
+- The APK file for the project can be found in the repository under the `apk/` folder.
